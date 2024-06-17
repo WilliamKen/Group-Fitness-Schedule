@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Group-Fitness-Schedule/static/css/main.60823f1a.css",
+    "main.js": "/Group-Fitness-Schedule/static/js/main.1f0d38c7.js",
+    "index.html": "/Group-Fitness-Schedule/index.html",
+    "main.60823f1a.css.map": "/Group-Fitness-Schedule/static/css/main.60823f1a.css.map",
+    "main.1f0d38c7.js.map": "/Group-Fitness-Schedule/static/js/main.1f0d38c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60823f1a.css",
+    "static/js/main.1f0d38c7.js"
+  ]
+}
