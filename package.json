@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://williamKen.github.io/Group-Fitness-Schedule",
+  "homepage": "https://williamken.github.io/Group-Fitness-Schedule/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

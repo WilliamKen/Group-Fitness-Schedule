@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - m
+      - master
 
 jobs:
   build:
@@ -25,6 +25,7 @@ jobs:
         run: |
           echo "REACT_APP_AIRTABLE_API_KEY=${{ secrets.REACT_APP_AIRTABLE_API_KEY }}" >> .env
           echo "REACT_APP_AIRTABLE_BASE_ID=${{ secrets.REACT_APP_AIRTABLE_BASE_ID }}" >> .env
+          echo "GENERATE_SOURCEMAP=false" >> .env
 
       - name: Build the project
         run: npm run build
